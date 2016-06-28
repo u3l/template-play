@@ -68,9 +68,5 @@ node_modules
 
 # Ignore compiled CSS from repository
 
-styles/
-styles/*
-/styles/
-styles/styles.css
-*.css
-styles/styles.css
+styles/*.css
+
