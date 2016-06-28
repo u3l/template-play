@@ -70,4 +70,5 @@ node_modules
 
 styles/
 styles/*
+/styles/
 styles/styles.css
