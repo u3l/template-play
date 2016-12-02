@@ -48,26 +48,55 @@ Temporary Items
 .sass-cache
 
 
-
-# Sublime Text 2 specific files #
+# Sublime Text 2 or 3 specific files #
 #################################
 
 *.sublime-project
 *.sublime-workspace
 
 
+# Other text editor folders or files #
+######################################
+
+.cache
+.project
+.settings
+.tmproj
+*.esproj
+nbproject
+*.komodoproject
+.komodotools
+_notes
+dwsync.xml
+
 
 # Ignore Node Modules #
 #######################
 
-node_modules
+node_modules/
 
 
 # Folders to Ignore #
 #####################
 
+.tmp/
+
 # Ignore compiled CSS from repository
 
+styles/
 styles/*.css
 styles/*.map
 
+
+# Misc files to ignore #
+########################
+
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.vi
+*~
