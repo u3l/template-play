@@ -1,24 +1,24 @@
 {
-  "name": "gulp-getting-started",
+  "name": "group-project",
   "version": "1.0.0",
-  "description": "getting started with the gulp build tool",
+  "description": "responsive blog group project",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/michaelwhyte/gulp-getting-started.git"
+    "url": ""
   },
   "keywords": [
-    "gulp"
+    "blog"
   ],
-  "author": "Michael Whyte",
+  "author": "Students",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/michaelwhyte/gulp-getting-started/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/michaelwhyte/gulp-getting-started#readme",
+  "homepage": "",
   "devDependencies": {
     "browser-sync": "^2.18.8",
     "del": "^2.2.2",
