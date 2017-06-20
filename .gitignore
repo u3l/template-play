@@ -81,11 +81,11 @@ node_modules/
 
 .tmp/
 
-# Ignore compiled CSS from repository
+# Ignore compiled CSS in dev folder
+# from repository
 
-styles/
-styles/*.css
-styles/*.map
+dev/styles/*.css
+dev/styles/*.map
 
 
 # Misc files to ignore #
