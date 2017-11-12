@@ -1,2 +1,2 @@
 # TWD Group Project
-This is a responsive blog.
+This is a class group project.
