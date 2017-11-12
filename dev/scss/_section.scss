@@ -1,0 +1,7 @@
+section {
+    &:last-of-type {
+        p:last-child{
+            margin-bottom: 0;
+        }
+    }
+}

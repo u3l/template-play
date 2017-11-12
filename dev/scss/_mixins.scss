@@ -1,0 +1,18 @@
+// Mixins
+
+// Functions
+
+// Px to Em converter
+$browser-context: 16; // Default
+
+@function em($pixels, $context: $browser-context){
+  @return #{$pixels/$context}em;
+}
+
+// Px to Rem converter
+$html-font-size: 16;
+
+@function rem($pixels, $context: $html-font-size){
+    @return #{$pixels/$context}rem;
+}
+
