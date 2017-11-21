@@ -1,3 +1,20 @@
 main {
-    padding: rem(30) 0;   
+
+	display: flex;
+	min-height: 95vh;
+	justify-content: center;
+	align-items: center;
+	margin: 0 0 rem(30) 0;
+
+	// Sections 
+
+	section:first-child {
+
+		display: grid;
+		grid-template-columns: repeat(9, 1fr);
+		grid-auto-rows: 1fr;
+		grid-gap: rem(2);
+
+	}
+
 }

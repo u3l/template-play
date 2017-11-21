@@ -1,7 +1,213 @@
-section {
-    &:last-of-type {
-        p:last-child{
-            margin-bottom: 0;
-        }
-    }
-}
+// Sections
+
+section:first-child {
+
+		.box {
+
+			width: rem(125);
+			height: rem(125);
+			background-color: #0B00E5;
+
+		} //end of #box style
+
+		// ROW 01
+
+		.box02 {
+
+			grid-column: 3;
+
+		}
+
+		.box03 {
+
+			grid-column: 5;
+
+		}
+
+		.box04 {
+
+			grid-column: 6;
+
+		}		
+
+		.box05 {
+
+			grid-column: 8;
+
+		}	
+
+		// ROW 02
+
+		.box06 {
+
+			grid-row: 2;
+
+		}
+
+		.box07 {
+
+			grid-row: 2;
+			grid-column: 3;
+
+		}
+
+		.box08 {
+
+			grid-row: 2;
+			grid-column: 6;
+
+		}
+
+		.box09 {
+
+			grid-row: 2;
+			grid-column: 8;
+
+		}
+
+		// ROW 03
+
+		.box10 {
+
+			grid-row: 3;
+
+		}
+
+		.box11 {
+
+			grid-row: 3;
+			grid-column: 3; 
+
+		}
+		
+		.box12 {
+
+			grid-row: 3;
+			grid-column: 5;	
+
+		}
+
+		.box13 {
+
+			grid-row: 3;
+			grid-column: 6;	
+
+		}
+
+		.box14 {
+
+			grid-row: 3;
+			grid-column: 8;	
+
+		}			
+
+		// ROW 04
+
+		.box15 {
+
+			grid-row: 4;
+
+		}
+
+		.box16 {
+
+			grid-row: 4;
+			grid-column: 3;
+
+		}		
+
+		.box17 {
+
+			grid-row: 4;
+			grid-column: 6;
+
+		}		
+
+		.box18 {
+
+			grid-row: 4;
+			grid-column: 8;
+			position: relative;
+
+		}	
+
+		// ROW 05	
+
+		.box19 {
+
+			grid-row: 5;
+
+		}	
+
+		.box20 {
+
+			grid-row: 5;
+			grid-column: 2;			
+
+		}	
+
+		.box21 {
+
+			grid-row: 5;
+			grid-column: 3;			
+
+		}
+
+		.box22 {
+
+			grid-row: 5;
+			grid-column: 5;			
+
+		}
+
+		.box23 {
+
+			grid-row: 5;
+			grid-column: 6;			
+
+		}
+
+		.box24 {
+
+			grid-row: 5;
+			grid-column: 8;	
+
+		}
+
+		.box25 {
+
+			grid-row: 5;
+			grid-column: 9;	
+
+		}
+
+		.nametag {
+
+		display: flex;
+		justify-content: center;
+		align-items: baseline;
+		line-height: rem(125);
+		font-size: rem(56);
+		color: white;
+		width: rem(375);
+		height: rem(125);
+		position: absolute;
+		right: rem(125);
+		bottom: rem(149);
+		transform: rotate(90deg); 
+
+			span {
+
+			font-size: rem(18);
+
+			}
+
+		}
+
+} // end of first-child section
+
+section:last-child {
+
+
+
+} // end of last-child section
